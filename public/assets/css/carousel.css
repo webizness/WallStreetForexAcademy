@@ -1,0 +1,115 @@
+/* pour le carousel de l'application ↓ */
+
+.phone-border {
+    top: -87px;
+    left: -205px;
+    position: absolute;
+    height: 735px;
+    width: 720px;
+    z-index: 2;
+}
+
+.container {
+    position: relative;
+    top: 240px;
+    left: -140px;
+    height: auto;
+    width: 290px;
+}
+
+.carousel-inner{
+    object-fit: cover;
+    border-radius: 26px;
+    height: 558px;
+    width: 290px;
+}
+
+.gsm {
+    height: auto;
+    width: 310px;
+    border-radius: 38px ;
+}
+
+/* pour le carousel de l'application ↑ */
+
+.application-card-body {
+    padding-top: 5px;
+}
+
+.application-card-title, .application-card-subtitle, .application-card-text {
+    text-align: center;
+    color: white;
+}
+
+#application-card {
+    border: solid #B18930;
+    background-color: rgb(16, 29, 71);
+}
+
+.application-title {
+    position: relative;
+    top: -500px;
+    left: 300px;
+    max-width: fit-content;
+    display: block;
+}
+
+.application-subtitle {
+    position: relative;
+    top: -465px;
+    left: 455px;
+    max-width: fit-content;
+    display: block;
+}
+
+.application-text {
+    position: relative;
+    top: -400px;
+    left: 326px;
+    max-width: fit-content;
+    display: block;
+}
+
+.fond-application {
+    background: linear-gradient(rgba(16, 29, 71, 0.8), rgba(16, 29, 71, 0.8))
+    , url(/public/assets/img/planete.png);
+    max-width: 100%;
+    max-height: 100%;
+    background-size: cover;
+    min-height: 1316px;
+}
+
+.Title-appli-available {
+    text-align: center;
+    color: #B18930;
+}
+
+#appli-title-card {
+    position: relative;
+    top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    max-width: fit-content;
+    background-color: transparent;
+    border: 1px transparent;
+}
+
+#link-stores {
+    position: relative;
+    top: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    max-width: fit-content;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+#ANDROID {
+    padding-right: 2px;
+}
+
+#IOS {
+    padding-left: 2px;
+}

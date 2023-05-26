@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>{% block title %}Welcome!{% endblock %}</title>
+        <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 128 128%22><text y=%221.2em%22 font-size=%2296%22>⚫️</text></svg>">
+        {# Run `composer require symfony/webpack-encore-bundle` to start using Symfony UX #}
+        {% block stylesheets %}
+        {#<link href="{{ asset('assets/css/wsf-nav.css')}}" rel="stylesheet">#}
+        <link href="{{ asset('assets/css/bootstrap.min.css')}}" rel="stylesheet">
+        <link href="{{ asset('assets/css/carousel.css')}}" rel="stylesheet">
+        <link href="{{ asset('assets/css/formation.css')}}" rel="stylesheet">
+        {#<link href="{{ asset('assets/css/glassmorph-card-nico.css')}}" rel="stylesheet">#}
+        <link href="{{ asset('assets/css/footer.css')}}" rel="stylesheet">
+        {#<link href="{{ asset('assets/css/video.css')}}" rel="stylesheet">#}
+        <link href="{{ asset('assets/css/custom.css')}}" rel="stylesheet">
+            {#{{ encore_entry_link_tags('app') }}#}
+        {% endblock %}
+
+        {% block javascripts %}
+        <script src="{{ asset ('assets/js/bootstrap.min.js') }}" rel="javascript"></script>
+            {#{{ encore_entry_script_tags('app') }}#}
+        {% endblock %}
+    </head>
+    <body>
+
+
+  <nav class="navbar navbar-expand-lg" style="background-color: rgb(16, 29, 71);">
+  <div class="container-fluid">
+    <a class="navbar-brand d-lg-none" href="{{ path('app_front_home') }}"><img src="{{ asset('assets/img/identity.png')}}" class="logo-wsf" alt="">
+    <h6 class="slogan"><font color="#B18930">W</font><font color="#fff">all</font><font color="#B18930"> S</font><font color="#fff">treet</font><font color="#B18930"> F</font><font color="#fff">orex</font></h6>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="toggler-icon top-bar"></span>
+      <span class="toggler-icon middle-bar"></span>
+      <span class="toggler-icon bottom-bar"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="{{ path('app_front_home') }}">HOME</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="{{ path('app_front_application') }}">APPLICATION</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="{{ path('app_front_formation') }}">FORMATION GRATUITE</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="{{ path('app_front_zoom') }}">ZOOM</a>
+        </li>
+        <a class="navbar-brand d-none d-lg-block" href="#"><img src="{{ asset('assets/img/identity.png')}}" class="logo-wsf" alt="">
+        <h6 class="slogan"><font color="#B18930">W</font><font color="#fff">all</font><font color="#B18930"> S</font><font color="#fff">treet</font><font color="#B18930"> F</font><font color="#fff">orex</font></h6>
+        </a>
+        <li class="nav-item">
+          <a class="nav-link" href="{{ path('app_front_broker') }}">BROKER</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="{{ path('app_front_emploi') }}">EMPLOI</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="{{ path('app_front_plus') }}" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            PLUS
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="{{ path('app_front_informations') }}">INFORMATIONS</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="{{ path('app_front_contact') }}">CONTACT</a>
+        </li>
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+<main>
+
+  
+
+
+  <!-- Marketing messaging and featurettes
+  ================================================== -->
+  <!-- Wrap the rest of the page in another container to center all the content. -->
+
+  <div class="">
+
+    {% block content %}
+    {% endblock %}
+
+  </div>
+  <!-- FOOTER -->
+  <footer class="footer-custom">
+        <p>Le Forex et les CFD sont des produits complexes, qui ne conviennent pas à tout le monde et qui comportent le risque élevé de perdre rapidement de l’argent en raison de l’effet de levier.Vous devez vous demander si vous comprenez le fonctionnement des CFD et si vous pouvez vous permettre de prendre le risque élevé de perdre votre argent.<br/>
+            <p class="copyright-text"><font color="#B18930">W</font><font color="#101D47">all</font><font color="#B18930"> S</font><font color="#101D47">treet</font><font color="#B18930"> F</font><font color="#101D47">orex</font> © COPYRIGHT 2023 - Tous Droits Réservés</p><br/>
+        </p>
+</main>   
+    </body>
+</html>

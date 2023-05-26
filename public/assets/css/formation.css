@@ -1,0 +1,171 @@
+
+.formation-title{
+    text-align: center;
+    color: #101D47;
+}
+.formation-subtitle{
+    text-align: center;
+    color: #101D47;
+}
+.formation-youtube{
+    margin-top: 10px;
+    text-align: center;
+}
+.formation-submit{
+    text-align: center;
+}
+.formation-button{
+    height: 50px;
+    width: 120px;
+    background-color: rgb(16, 29, 71);
+    color: #B18930 ;
+    border-radius: 20px;
+    border-color: #B18930;
+    margin-bottom: 5px;
+}
+.formation-button:hover{
+    height: 50px;
+    width: 120px;
+    color: #CCB72B;
+    border-radius: 20px;
+    border-color: #CCB72B;
+}
+.container-formation-trading{
+    background-color: rgb(16, 29, 71);
+    height: 950px;
+}
+
+/*------- formation card------------*/
+#formation-card{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    position: relative;
+    left: 300px;
+}
+
+#font-button-formation {
+    font-size: 25px;
+    font-weight: 700;
+    color: #B18930;
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    list-style-type: none;
+}
+
+#dropdown-formation {
+    background-color: #101D47;
+    color: #CCB72B;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: solid 2px #B18930;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#padding-forma-li {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.card-img-top {
+    justify-content: center;
+    align-items: center;
+}
+
+#calculette {
+    height: 168px;
+    width: 168px;
+    margin-left: 40px;
+}
+
+#btn-formation-calc.btn.btn-primary {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 80px;
+    background-color: #101D47;
+    border: solid 1px #B18930;
+    color: #B18930;
+}
+
+#btn-formation-calc.btn.btn-primary:hover {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 80px;
+    background-color: #101D47;
+    border: solid 1px #CCB72B;
+    color: #CCB72B;
+}
+
+#btn-formation-chart.btn.btn-primary {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 100px;
+    background-color: #101D47;
+    border: solid 1px #B18930;
+    color: #B18930;
+}
+
+#btn-formation-chart.btn.btn-primary:hover {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 100px;
+    background-color: #101D47;
+    border: solid 1px #CCB72B;
+    color: #CCB72B;
+}
+
+h5 {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+p {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.banderolle-nico {
+    width: 1400px;
+    height: 308px;
+    margin-right: auto;
+    margin-left: auto;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px 15px 15px 15px;
+    background-image: url('/public/assets/img/nico-banderole.png'); 
+    margin-bottom: 100px;
+}
+
+#font-button-formation {
+    position: relative;
+    top: 390px;
+}
+
+ #formation-card {
+    margin-bottom: 50px;
+ }
+
+ #title-formation {
+    position: relative;
+    top: 385px;
+    text-align: center;
+    color: #CCB72B;
+    font-weight: 700;
+    font-size: 58px;
+ }
