@@ -1,0 +1,44 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello HomeController!{% endblock %}
+
+{% block content %}
+<h2 class="fw-normal-title">Rejoignez l'aventure WSF Academy !</h2>
+    <div class="row">
+      <div class="col-lg-6">
+        <placeholder width="280" height="280">
+        <iframe id="trailer" src="https://www.youtube.com/embed/f3tT213kRgs" title="Trailer wsf" 
+         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+        </iframe>
+      </div><!-- /.col-lg-6 -->
+      <div class="col-lg-6">
+        <placeholder width="280" height="280">
+        <div class="fond" id="fond-card">
+        <div class="" id="glassmorph-container">
+        <div class="card" id="glassmorph-card">
+        <div class="content" id="glassmorph-card-content">
+        <div class="text-nom-wsf"><h1><font color="#B18930">W</font><font id="txt">all</font><font color="#B18930"> S</font><font id="txt">treet</font><font color="#B18930"> F</font><font id="txt">orex</font></h1></div>
+        <div class="text-nom-nico"><h2>by <font id="color-nico">Nicolas Benintendi</font></h2></div>
+        <div class="imgbox"><img src="{{ asset('assets/img/nico-wsf.png')}}" id="nico-wsf">
+        <div class="loader">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+           </div>
+          </div>
+       </div>
+    </div>
+    </div>
+   </div>
+  </div><!-- /.col-lg-6 -->
+</div><!-- /.row -->
+
+
+   <script type="text/javascript" src="{{ asset('assets/js/vanilla-tilt.js')}}"> </script>
+    <script type="text/javascript">
+        VanillaTilt.init(document.querySelector("#glassmorph-card"), {
+            max: 25,
+            speed: 400 });
+    </script> 
+{% endblock %}

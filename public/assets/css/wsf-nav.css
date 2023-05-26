@@ -1,0 +1,229 @@
+.navbar-brand img {
+    width:130px;
+    }
+
+.navbar-brand {
+    margin-right: 0;
+
+}
+.navbar-nav{
+    align-items: center;
+}
+.navbar .narbar-nav .nav.link {
+    font-size: 1.1em;
+    padding: .5em 1em;
+}
+.navbar-nav a.nav-link {
+    color: #B18930;
+}
+.navbar .navbar-nav .nav-link:hover{
+    color: #CCB72B;
+}
+.navbar-nav a.nav-link.show {
+    color: #B18930;
+}
+
+@media screen and (min-width:992px){
+    .navbar-brand img {
+        width:130px;
+        }
+        .navbar-brand {
+            margin-right: 0;
+        }
+}
+.nav-link-dropdown-toggle.show{
+    color: #B18930;
+}
+ul.dropdown-menu{
+    border:solid 1px #B18930;
+    background-color: #101D47;
+}
+ul.dropdown-menu:hover{
+    background-color: #101D47;
+}
+a.dropdown-item{
+    background-color: #101D47;
+color: #B18930;
+}
+a.dropdown-item:hover{
+    background-color: #101D47;
+    color: #CCB72B;
+    }
+/*----------------------------------- Hamburger ----------------------------------*/
+/* Remove border from toggler */
+.navbar-toggler {
+    border: 0 !important;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none !important;
+    box-shadow: none !important;
+    border: 0 !important;
+}
+
+/* Lines of the Toggler */
+.toggler-icon{
+    width: 30px;
+    height: 3px;
+    background-color: #B18930;
+    display: block;
+    transition: all 0.2s;
+}
+
+/* Adds Space between the lines */
+.middle-bar{
+    margin: 5px auto;
+}
+
+/* State when navbar is opened (START) */
+.navbar-toggler .top-bar {
+    transform: rotate(45deg);
+    transform-origin: 10% 10%;
+}
+
+.navbar-toggler .middle-bar {
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+
+.navbar-toggler .bottom-bar {
+    transform: rotate(-45deg);
+    transform-origin: 10% 90%;
+}
+/* State when navbar is opened (END) */
+
+/* State when navbar is collapsed (START) */
+.navbar-toggler.collapsed .top-bar {
+    transform: rotate(0);
+}
+
+.navbar-toggler.collapsed .middle-bar {
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+.navbar-toggler.collapsed .bottom-bar {
+    transform: rotate(0);
+}
+/* State when navbar is collapsed (END) */
+
+/* Color of Toggler when collapsed */
+.navbar-toggler.collapsed .toggler-icon {
+    background-color: #B18930;
+}
+/*---------------------------- Fin Hamburger ----------------------------------------*/
+
+/*------------------Broker--------------------------------*/
+.broker-title{
+    text-align: center;
+    color: #101D47;
+}
+.broker-subtitle{
+    text-align: center;
+    color: #101D47;
+}
+.broker-youtube{
+    text-align: center;
+    color: #101D47;
+}
+.broker-submit{
+    text-align: center;
+}
+.broker-button{
+    height: 50px;
+    width: 120px;
+    background-color: rgb(16, 29, 71);
+    color: #B18930 ;
+    border-radius: 20px;
+    border-color: #B18930;
+    margin-bottom: 5px;
+}
+.broker-button:hover{
+    height: 50px;
+    width: 120px;
+    color: #CCB72B;
+    border-radius: 20px;
+    border-color: #CCB72B;
+}
+.bg-image-broker{
+    background-image: url(/public/assets/img/admirals-markets.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+
+.broker-img-title{
+    text-align: center;
+    color: #101D47;
+}
+
+/*-----------------Brokers ---------------------------------------------*/
+
+
+/*------------------Informations--------------------------------*/
+.bg-image-informations{
+    background-image: url(/public/assets/img/background-404.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    
+  }
+.test{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+.informations-bg-glass{
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    margin-top: 50px;
+    height: 250px;
+    width: 700px;
+    
+}
+.informations-glass-title{
+    font-family: 'Roboto', sans-serif;
+    font-size: large;
+    font-weight: bold;
+    color: #101D47;
+}
+.informations-card-text{
+    font-family: 'Roboto', sans-serif;
+    font-size: large;
+    font-weight: bold;
+    color: #101D47;
+}
+/*-----------------fin Informations ---------------------------------------------*/
+
+/************ Contact ************************/
+#container-fluid-contact {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.button-contact
+{
+height: 50px;
+width: 80px;
+background-color: rgb(16, 29, 71);
+color: #B18930 ;
+border-radius: 20px;
+border-color: #B18930;
+}
+
+.button-contact:hover
+{
+height: 50px;
+width: 80px;
+color: #CCB72B;
+border-radius: 20px;
+border-color: #CCB72B;
+}
+/************** Fin contact ****************/
