@@ -2,19 +2,25 @@
 
 {% block title %}Wall Street Forex | Emploi{% endblock %}
 
-{% block body %}
-<style>
-    .example-wrapper { margin: 1em auto; max-width: 800px; width: 95%; font: 18px/1.5 sans-serif; }
-    .example-wrapper code { background: #F5F5F5; padding: 2px 6px; }
-</style>
+{% block content %}
+    <div class="row">
+      <div class="col-lg-6">
+        <h4 class="jobs-text">Tu es utilisateur de l’application <font color="#B18930">W</font><font color="#101D47">all</font><font color="#B18930"> S</font><font color="#101D47">treet</font><font color="#B18930"> F</font><font color="#101D47">orex</font> ?</h4>
+                 <h4 class="jobs-text">Tu es content de l’appli et d’appartenir à la communauté <font color="#B18930">WSF</font> ?</h4>
+                 <h4 class="jobs-text">Pourquoi ne pas aller plus loin ?</h4>
+                 <h4 class="jobs-text"><font color="#B18930">WSF</font> donne la priorité à sa communauté pour le lancement de son développement.</h4>
+                 <h4 class="jobs-text">Complément de revenu, véritable salaire ou plus ?</h4>
+                 <h4 class="jobs-text">Lance toi avec nous, recommande l’application et l’opportunité à tes proches et à ta communauté et sois rémunéré pour ça.</h4>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-6">
+        <div class="card" id ="card-jobs" style="width: 40rem;">
+                           <div class="card-body">
+                               <h1 class="jobs-card-title">"</h1>
+                               <h2 class="jobs-card-subtitle">“If you want to go fast, go alone. If you want to go far, go together."</h2>
+                               <p class="jobs-card-text">Nicolas Benintendi</p>
+                               <p class="jobs-card-text">Founder & CEO</p>
+                            </div>
+                     </div>
+    </div><!-- /.row -->
 
-<div class="example-wrapper">
-    <h1>Hello {{ controller_name }}! ✅</h1>
-
-    This friendly message is coming from:
-    <ul>
-        <li>Your controller at <code><a href="{{ '/var/www/html/WallStreetForexAcademy/src/Controller/Front/EmploiController.php'|file_link(0) }}">src/Controller/Front/EmploiController.php</a></code></li>
-        <li>Your template at <code><a href="{{ '/var/www/html/WallStreetForexAcademy/templates/front/emploi/index.html.twig'|file_link(0) }}">templates/front/emploi/index.html.twig</a></code></li>
-    </ul>
-</div>
 {% endblock %}
