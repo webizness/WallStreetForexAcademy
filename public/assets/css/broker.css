@@ -1,0 +1,43 @@
+.broker-title{
+    text-align: center;
+    color: #101D47;
+}
+.broker-subtitle{
+    text-align: center;
+    color: #101D47;
+}
+.broker-youtube{
+    text-align: center;
+}
+.broker-submit{
+    text-align: center;
+}
+.broker-submit{
+    text-align: center;
+}
+.broker-button{
+    height: 50px;
+    width: 180px;
+    background-color: rgb(16, 29, 71);
+    color: #B18930 ;
+    border-radius: 15px;
+    border:solid 3px #B18930;
+    margin-bottom: 5px;
+}
+.broker-button:hover{
+    height: 50px;
+    width: 180px;
+    color: #CCB72B;
+    border-radius: 15px;
+    border:solid 3px #CCB72B;
+}
+.background-admirals{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    
+}
+.admirals{
+    text-align: center;
+}
