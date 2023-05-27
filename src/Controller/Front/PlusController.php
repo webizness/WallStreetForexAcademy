@@ -11,7 +11,7 @@ class PlusController extends AbstractController
     #[Route('/front/plus', name: 'app_front_plus')]
     public function index(): Response
     {
-        return $this->render('front/plus/index.html.twig', [
+        return $this->render('front/plus/plus.html.twig', [
             'controller_name' => 'PlusController',
         ]);
     }

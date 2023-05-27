@@ -39,7 +39,7 @@ class ContactController extends AbstractController
                 'success',
                 'Votre message a été envoyé avec succès !'
             );
-            return $this ->redirectToRoute('contact');
+            return $this ->redirectToRoute('app_front_contact');
         }
 
         return $this->render('front/contact/contact.html.twig', [

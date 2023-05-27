@@ -11,7 +11,7 @@ class ZoomController extends AbstractController
     #[Route('/front/zoom', name: 'app_front_zoom')]
     public function index(): Response
     {
-        return $this->render('front/zoom/index.html.twig', [
+        return $this->render('front/zoom/zoom.html.twig', [
             'controller_name' => 'ZoomController',
         ]);
     }

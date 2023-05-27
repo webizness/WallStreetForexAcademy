@@ -11,7 +11,7 @@ class FormationController extends AbstractController
     #[Route('/front/formation', name: 'app_front_formation')]
     public function index(): Response
     {
-        return $this->render('front/formation/index.html.twig', [
+        return $this->render('front/formation/formation.html.twig', [
             'controller_name' => 'FormationController',
         ]);
     }
