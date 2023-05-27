@@ -1,0 +1,28 @@
+.background-emploi{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    
+}
+.emploi-title {
+    text-align: center;
+}
+.emploi-text{
+    color:#101D47;
+}
+#card-emploi{
+    text-align: center;
+    border:solid 3px #B18930;
+}
+.emploi-card-title{
+  color: #B18930;
+}
+.emploi-card-subtitle{
+    color:#101D47;
+}
+.emploi-card-text{
+    text-align: center;
+    color:#B18930;
+    font-weight: bold;
+}
