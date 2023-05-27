@@ -11,7 +11,7 @@ class ApplicationController extends AbstractController
     #[Route('/front/application', name: 'app_front_application')]
     public function index(): Response
     {
-        return $this->render('front/application/index.html.twig', [
+        return $this->render('front/application/application.html.twig', [
             'controller_name' => 'ApplicationController',
         ]);
     }

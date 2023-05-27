@@ -11,7 +11,7 @@ class BrokerController extends AbstractController
     #[Route('/front/broker', name: 'app_front_broker')]
     public function index(): Response
     {
-        return $this->render('front/broker/index.html.twig', [
+        return $this->render('front/broker/broker.html.twig', [
             'controller_name' => 'BrokerController',
         ]);
     }

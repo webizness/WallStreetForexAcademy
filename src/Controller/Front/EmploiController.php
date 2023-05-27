@@ -11,7 +11,7 @@ class EmploiController extends AbstractController
     #[Route('/front/emploi', name: 'app_front_emploi')]
     public function index(): Response
     {
-        return $this->render('front/emploi/index.html.twig', [
+        return $this->render('front/emploi/emploi.html.twig', [
             'controller_name' => 'EmploiController',
         ]);
     }
