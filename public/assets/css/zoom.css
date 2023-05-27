@@ -1,0 +1,65 @@
+#vimeo-trailer-zoom {
+    border-radius: 10px;
+    top: 100px;
+    left: 350px;
+}
+
+.ms {
+    margin-left: 200px;
+}
+
+.mt {
+   margin-top: 100px;
+}
+
+.me{
+    margin-left: -90px;
+}
+
+#card-zoom {
+    box-shadow: none;
+    background-color: #101D47;
+    border: 3px solid #B18930;
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+
+#card-body-zoom {
+    padding-top: 20px;
+    padding-left: 80px;
+    padding-right: 10px;
+    text-align: center;
+}
+
+#zoom-btn {
+    margin-top: 70px;
+    background-color: #CCB72B;
+    border: #101D47;
+    color: #101D47;
+}
+
+#zoom-parag {
+    margin-top: 20px;
+    color: #CCB72B;
+}
+
+#title-zoom {
+    font-weight: 700;
+    font-size: 37.92px;
+    color: #CCB72B;
+}
+
+.fond-zoom {
+    background:
+    url(/public/assets/img/background-slogan.png) center center / cover no-repeat;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    background-size: cover;
+    width: auto;
+    height: 940px;
+    object-fit: cover;
+    display: block;
+    box-sizing: border-box;
+    z-index: -2;
+}
