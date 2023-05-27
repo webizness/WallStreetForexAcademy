@@ -296,6 +296,64 @@ width: 580px;
 
 /**** FIN HOME ***/
 
+/**** APPLICATION ***/
+/**** FIN APPLICATION ***/
+
+/**** FORMATION ***/
+/**** FIN FORMATION ***/
+
+/**** ZOOM ***/
+/**** FIN ZOOM ***/
+
+/**** BROKER ***/
+/**** FIN BROKER ***/
+
+/**** EMPLOI ***/
+/**** FIN EMPLOI ***/
+
+/**** INFORMATIONS ***/
+.background-informations{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.card-title-informations{
+    text-align: center;
+}
+.card-text-informations{
+    text-align: center;
+}
+.informations-submit{
+    text-align: center;
+}
+.informations-button{
+    height: 50px;
+    width: 180px;
+    background-color: rgb(16, 29, 71);
+    color: #B18930 ;
+    border-radius: 15px;
+    border:solid 3px #B18930;
+    margin-bottom: 5px;
+}
+.informations-button:hover{
+    height: 50px;
+    width: 180px;
+    color: #CCB72B;
+    border-radius: 15px;
+    border:solid 3px #CCB72B;
+}
+/**** FIN INFORMATIONS ***/
+
+/**** CONTACT ***/
+/**** FIN CONTACT ***/
+
+
+
+
+
+
+
 
 
 
