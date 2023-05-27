@@ -45,6 +45,7 @@ a.dropdown-item:hover{
     color: #CCB72B;
 }
 /*** Fin NavBar****/
+
 /***** Hamburger ****/
 /* Remove border from toggler */
 .navbar-toggler {
@@ -110,6 +111,7 @@ a.dropdown-item:hover{
     background-color: #B18930;
 }
 /**** Fin Hamburger ****/
+
 /****** Home ******/
 .fw-normal-title{
     text-align: center;
@@ -291,6 +293,7 @@ width: 580px;
     padding-left: 80px;
     background-color: white;
 }
+
 /**** FIN HOME ***/
 
 
