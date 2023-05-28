@@ -1,8 +1,8 @@
 .broker-text.me {
-    margin-left: 1330px;
+    margin-left: 1750px;
 }
 .broker-text.mt {
-    margin-top: 275px;
+    margin-top: 340px;
 }
 .broker-title{
     text-align: center;
@@ -41,9 +41,121 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 100vh;
+    height: 75vh;
     
 }
 .admirals{
     text-align: center;
+}
+
+@media screen and (max-width: 2560px) {
+    .background-admirals{
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 75vh;
+        
+    }
+    .broker-text.me {
+        margin-left: 1785px;
+    }
+    .broker-text.mt {
+        margin-top: 210px;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .background-admirals{
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 45vh;
+        
+    }
+    .broker-text.me {
+        margin-left: 910px;
+    }
+    .broker-text.mt {
+        margin-top: 165px;
+    }
+}
+
+@media screen and (max-width: 1920px) {
+    .background-admirals{
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 76vh;
+        
+    }
+    .broker-text.me {
+        margin-left: 1280px;
+    }
+    .broker-text.mt {
+        margin-top: 210px;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .background-admirals{
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 62vh;
+        
+    }
+    .broker-text.me {
+        margin-left: 901px;
+    }
+    .broker-text.mt {
+        margin-top: 150px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .background-admirals{
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 44vh;
+        
+    }
+    .broker-text.me {
+        margin-left: 600px;
+    }
+    .broker-text.mt {
+        margin-top: 50px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .background-admirals{
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 33vh;
+        
+    }
+    .broker-text.me {
+        margin-left: 585px;
+    }
+    .broker-text.mt {
+        margin-top: 50px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .background-admirals{
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 18vh;
+        
+    }
+    .broker-text.me {
+        margin-left: 585px;
+    }
+    .broker-text.mt {
+        margin-top: 50px;
+    }
 }

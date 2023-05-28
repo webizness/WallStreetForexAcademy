@@ -442,6 +442,9 @@ width: 580px;
 
 
 
+.footer-custom.mt {
+    margin-top: 630px;
+}
 
 .footer-custom {
     /*text-align: center;*/
