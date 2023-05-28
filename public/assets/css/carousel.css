@@ -1,0 +1,447 @@
+/* pour le carousel de l'application ↓ */
+
+.phone-border {
+    position: absolute;
+    height: 570px;
+    width: 720px;
+    z-index: 2;
+    max-width: fit-content;
+    display: block;
+    box-sizing: border-box;
+}
+
+.phone-border.me {
+    margin-left: 655px;
+}
+.phone-border.mt {
+    margin-top: -5px;
+}
+
+.container {
+    position: fixed;
+    height: auto;
+    width: 290px;
+}
+
+.carousel.slide {
+    max-width: fit-content;
+    display: block;
+    box-sizing: border-box;
+}
+.carousel.slide.me {
+    margin-left: 665px;
+}
+
+.carousel.slide.mt {
+    margin-top: 35px;
+}
+
+.carousel-inner{
+    object-fit: cover;
+    border-radius: 26px;
+    height: 558px;
+    width: 290px;
+}
+
+.gsm {
+    height: auto;
+    width: 310px;
+    border-radius: 38px ;
+}
+
+/* pour le carousel de l'application ↑ */
+.application-card-body {
+    padding-top: 5px;
+}
+
+.application-card-title, .application-card-subtitle, .application-card-text {
+    text-align: center;
+    color: white;
+}
+
+#application-card {
+    border: solid #B18930;
+    background-color: rgb(16, 29, 71);
+}
+
+.application-title {
+    max-width: fit-content;
+    display: block;
+}
+
+.application-subtitle {
+    max-width: fit-content;
+    display: block;
+}
+
+.application-text {
+    max-width: fit-content;
+    display: block;
+}
+
+/* .fond-application {
+    background: linear-gradient(rgba(16, 29, 71, 0.8), rgba(16, 29, 71, 0.8))
+    , url(/public/assets/img/planete.png);
+    max-width: 100%;
+    max-height: 100%;
+    background-size: cover;
+    min-height: 1316px;
+} */
+
+.Title-appli-available {
+    text-align: center;
+    color: #B18930;
+}
+
+#appli-title-card {
+    position: relative;
+    top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    max-width: fit-content;
+    background-color: transparent;
+    border: 1px transparent;
+}
+
+#link-stores {
+    top: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    max-width: fit-content;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+#ANDROID {
+    padding-right: 2px;
+}
+
+#IOS {
+    padding-left: 2px;
+}
+
+.application-title.me {
+    margin-left: -20px;
+}
+.application-title.mt {
+    margin-top: 30px;
+}
+.application-subtitle.me {
+    margin-left: 190px;
+}
+.application-subtitle.mt {
+    margin-top: 60px;
+}
+.application-text.me {
+    margin-left: 45px;
+}
+.application-text.mt {
+    margin-top: 145px;
+}
+
+@media screen and (max-width:1710px){
+    .application-title.me {
+        margin-left: -20px;
+    }
+    .application-title.mt {
+        margin-top: 30px;
+    }
+    .application-subtitle.me {
+        margin-left: 190px;
+    }
+    .application-subtitle.mt {
+        margin-top: 60px;
+    }
+    .application-text.me {
+        margin-left: 45px;
+    }
+    .application-text.mt {
+        margin-top: 145px;
+    }
+    .phone-border.me {
+        margin-left: 550px;
+    }
+    .phone-border.mt {
+        margin-top: -5px;
+    }
+    .carousel.slide.me {
+        margin-left: 560px;
+    }
+    .carousel.slide.mt {
+        margin-top: 35px;
+    }    
+}
+
+@media screen and (max-width:1515px){
+    .application-title.me {
+        margin-left: -20px;
+    }
+    .application-title.mt {
+        margin-top: 30px;
+    }
+    .application-subtitle.me {
+        margin-left: 190px;
+    }
+    .application-subtitle.mt {
+        margin-top: 60px;
+    }
+    .application-text.me {
+        margin-left: 45px;
+    }
+    .application-text.mt {
+        margin-top: 145px;
+    }
+    .phone-border.me {
+        margin-left: 445px;
+    }
+    .phone-border.mt {
+        margin-top: -5px;
+    }
+    .carousel.slide.me {
+        margin-left: 455px;
+    }
+    .carousel.slide.mt {
+        margin-top: 35px;
+    }
+    
+} 
+
+@media screen and (max-width:1440px){
+    .application-title.me {
+        margin-left: -20px;
+    }
+    .application-title.mt {
+        margin-top: 30px;
+    }
+    .application-subtitle.me {
+        margin-left: 190px;
+    }
+    .application-subtitle.mt {
+        margin-top: 60px;
+    }
+    .application-text.me {
+        margin-left: 45px;
+    }
+    .application-text.mt {
+        margin-top: 145px;
+    }
+    .phone-border.me {
+        margin-left: 415px;
+    }
+    .phone-border.mt {
+        margin-top: -5px;
+    }
+    .carousel.slide.me {
+        margin-left: 420px;
+    }
+    .carousel.slide.mt {
+        margin-top: 35px;
+    }
+    
+}
+
+@media screen and (max-width:1275px){
+    .application-title.me {
+        margin-left: -20px;
+    }
+    .application-title.mt {
+        margin-top: 30px;
+    }
+    .application-subtitle.me {
+        margin-left: 190px;
+    }
+    .application-subtitle.mt {
+        margin-top: 60px;
+    }
+    .application-text.me {
+        margin-left: 45px;
+    }
+    .application-text.mt {
+        margin-top: 145px;
+    }
+    .phone-border.me {
+        margin-left: 330px;
+    }
+    .phone-border.mt {
+        margin-top: -5px;
+    }
+    .carousel.slide.me {
+        margin-left: 340px;
+    }
+    .carousel.slide.mt {
+        margin-top: 35px;
+    }
+    
+} 
+
+@media screen and (max-width:1230px){
+    .application-title.me {
+        margin-left: -115px;
+    }
+    .application-title.mt {
+        margin-top: 30px;
+    }
+    .application-subtitle.me {
+        margin-left: 50px;
+    }
+    .application-subtitle.mt {
+        margin-top: 60px;
+    }
+    .application-text.me {
+        margin-left: -30px;
+    }
+    .application-text.mt {
+        margin-top: 145px;
+    }
+    .phone-border.me {
+        margin-left: 235px;
+    }
+    .phone-border.mt {
+        margin-top: -5px;
+    }
+    .carousel.slide.me {
+        margin-left: 245px;
+    }
+    .carousel.slide.mt {
+        margin-top: 35px;
+    }
+    
+} 
+
+@media screen and (max-width:1135px){
+    .application-title.me {
+        margin-left: -220px;
+    }
+    .application-title.mt {
+        margin-top: 630px;
+    }
+    .application-subtitle.me {
+        margin-left: -190px;
+    }
+    .application-subtitle.mt {
+        margin-top: 20px;
+    }
+    .application-text.me {
+        margin-left: -215px;
+    }
+    .application-text.mt {
+        margin-top: 20px;
+    }
+    .phone-border.me {
+        margin-left: 395px;
+    }
+    .phone-border.mt {
+        margin-top: -5px;
+    }
+    .carousel.slide.me {
+        margin-left: 405px;
+    }
+    .carousel.slide.mt {
+        margin-top: 35px;
+    }
+    
+}
+
+@media screen and (max-width:768px){
+    .application-title.me {
+        margin-left: -220px;
+    }
+    .application-title.mt {
+        margin-top: 630px;
+    }
+    .application-subtitle.me {
+        margin-left: -190px;
+    }
+    .application-subtitle.mt {
+        margin-top: 20px;
+    }
+    .application-text.me {
+        margin-left: -215px;
+    }
+    .application-text.mt {
+        margin-top: 20px;
+    }
+    .phone-border.me {
+        margin-left: 417px;
+    }
+    .phone-border.mt {
+        margin-top: -5px;
+    }
+    .carousel.slide.me {
+        margin-left: 405px;
+    }
+    .carousel.slide.mt {
+        margin-top: 35px;
+    }
+    
+}
+
+@media screen and (max-width:425px){
+    .application-title.me {
+        margin-left: -220px;
+    }
+    .application-title.mt {
+        margin-top: 630px;
+    }
+    .application-subtitle.me {
+        margin-left: -190px;
+    }
+    .application-subtitle.mt {
+        margin-top: 20px;
+    }
+    .application-text.me {
+        margin-left: -215px;
+    }
+    .application-text.mt {
+        margin-top: 20px;
+    }
+    .phone-border.me {
+        margin-left: 417px;
+    }
+    .phone-border.mt {
+        margin-top: -5px;
+    }
+    .carousel.slide.me {
+        margin-left: 400px;
+    }
+    .carousel.slide.mt {
+        margin-top: 35px;
+    }
+    
+}
+
+@media screen and (max-width:280px){
+    .application-title.me {
+        margin-left: -220px;
+    }
+    .application-title.mt {
+        margin-top: 630px;
+    }
+    .application-subtitle.me {
+        margin-left: -190px;
+    }
+    .application-subtitle.mt {
+        margin-top: 20px;
+    }
+    .application-text.me {
+        margin-left: -215px;
+    }
+    .application-text.mt {
+        margin-top: 20px;
+    }
+    .phone-border.me {
+        margin-left: 417px;
+    }
+    .phone-border.mt {
+        margin-top: -5px;
+    }
+    .carousel.slide.me {
+        margin-left: 405px;
+    }
+    .carousel.slide.mt {
+        margin-top: 35px;
+    }
+    
+}
