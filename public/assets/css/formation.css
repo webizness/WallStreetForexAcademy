@@ -1,27 +1,13 @@
-.broker-text.me {
-    margin-left: 1330px;
-}
-.broker-text.mt {
-    margin-top: 275px;
-}
-.broker-title{
-    text-align: center;
+.formation-title{
     color: #101D47;
 }
-.broker-subtitle{
-    text-align: center;
+.formation-subtitle{
     color: #101D47;
 }
-.broker-youtube{
+.formation-submit{
     text-align: center;
 }
-.broker-submit{
-    text-align: center;
-}
-.broker-submit{
-    text-align: center;
-}
-.broker-button{
+.formation-button{
     height: 50px;
     width: 180px;
     background-color: rgb(16, 29, 71);
@@ -30,20 +16,16 @@
     border:solid 3px #B18930;
     margin-bottom: 5px;
 }
-.broker-button:hover{
+.formation-button:hover{
     height: 50px;
     width: 180px;
     color: #CCB72B;
     border-radius: 15px;
     border:solid 3px #CCB72B;
 }
-.background-admirals{
+.background-formation{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     height: 100vh;
-    
-}
-.admirals{
-    text-align: center;
 }
