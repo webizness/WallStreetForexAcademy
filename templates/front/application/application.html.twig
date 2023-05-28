@@ -6,17 +6,19 @@
 
 
     <!-- START THE FEATURETTES -->
-
-    <hr class="featurette-divider">
-
+<div class="background-application" style="background: linear-gradient(rgba(16, 29, 71, 0.8), rgba(16, 29, 71, 0.8)), url('{{asset('assets/img/planete.png')}}'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;" alt="">
     <div class="row featurette">
       <div class="col-md-7" id="col-application">
         <div class="gsm">
                     <div class="phone">
-                        <img class="phone-border" src="{{ asset('assets/img/phone.png')}}"></img>
+                        <img class="phone-border me mt" src="{{ asset('assets/img/phone.png')}}"></img>
                     </div>
 
-                    <div id="diaporama" class="carousel slide" data-bs-ride="carousel">
+                    <div id="diaporama" class="carousel slide me mt" data-bs-ride="carousel">
                         <div class="carousel-indicators">
                             <button type="button" data-bs-target="#diaporama" data-bs-slide-to="0" class="active"
                                 aria-current="true" aria-label="Slide 1"></button>
@@ -59,21 +61,21 @@
                 </div>
       </div>
       <div class="col-md-5" id="col-application">
-        <div class="application-title" id="center-card">
+        <div class="application-title me mt" id="center-card">
                             <div class="card" id="application-card" style="width: 23rem;">
                                 <div class="application-card-body">
                                     <h5 class="application-card-title">Application mobile haut de gamme</h5>
                                 </div>
                             </div>
                         </div>
-                        <div class="application-subtitle" id="center-card">
+                        <div class="application-subtitle me mt" id="center-card">
                             <div class="card" id="application-card" style="width: 19rem;">
                                 <div class="application-card-body">
                                     <h5 class="application-card-subtitle">Bien plus qu'une application</h5>
                                 </div>
                             </div>
                         </div>
-                        <div class="application-text" id="center-card">
+                        <div class="application-text me mt" id="center-card">
                             <div class="card" id="application-card" style="width: 22rem;">
                                 <div class="application-card-body">
                                     <p class="application-card-text">Une application professionnelle de partage de
@@ -95,6 +97,5 @@
                         </div>
       </div>
     </div>
-
-    <hr class="featurette-divider">
+</div>
 {% endblock %}
