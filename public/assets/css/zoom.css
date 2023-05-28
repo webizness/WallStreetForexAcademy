@@ -277,3 +277,42 @@ iframe {
         width: 600px;
     }
 }
+
+@media screen and (min-width: 1440px){
+    .vimeo-trailer.ms {
+        margin-left: 250px;
+    }
+    .zoom-card-up.me{
+        margin-left: -180px;
+    }
+    .zoom-card-up.mt{
+        margin-top: 80px;
+    }
+    iframe {
+        width: 500px;
+        height: 280px;
+    }
+    #card-zoom {
+        width: 600px;
+    }
+}
+
+
+@media screen and (min-width: 2560px){
+    .vimeo-trailer.ms {
+        margin-left: 890px;
+    }
+    .zoom-card-up.me{
+        margin-left: -190px;
+    }
+    .zoom-card-up.mt{
+        margin-top: 90px;
+    }
+    iframe {
+        width: 500px;
+        height: 280px;
+    }
+    #card-zoom {
+        width: 600px;
+    }
+}

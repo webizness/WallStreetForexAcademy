@@ -121,6 +121,14 @@ a.dropdown-item:hover{
 height: 440px;
 width: 580px;
 }
+
+.trailer-yt.me {
+    margin-left: 20px;
+}
+.trailer-yt.mt {
+ margin-top: 25px;
+}
+
 #nico-wsf {
     width: 250px;
     height: 350px;
@@ -232,6 +240,51 @@ width: 580px;
     z-index: 2;
 }
 
+@media screen and (max-width: 1190px) {
+    .trailer-yt.me {
+        margin-left: 305px;
+    }
+    .trailer-yt.mt {
+     margin-top: 25px;
+    }
+    .glassmorph-cont.mt {
+        margin-top: 480px;
+    }
+    .glassmorph-cont.me {
+        margin-left: -220px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .trailer-yt.me {
+        margin-left: 210px;
+    }
+    .trailer-yt.mt {
+     margin-top: 25px;
+    }
+    .glassmorph-cont.mt {
+        margin-top: 15px;
+    }
+    .glassmorph-cont.me {
+        margin-left: 235px;
+    }
+}
+
+@media screen and (max-width: 475px) {
+    .trailer-yt.me {
+        margin-left: 210px;
+    }
+    .trailer-yt.mt {
+     margin-top: 25px;
+    }
+    .glassmorph-cont.mt {
+        margin-top: -130px;
+    }
+    .glassmorph-cont.me {
+        margin-left: 235px;
+    }
+}
+
 /* CERCLE AUTOUR DE NICO */
 
 .loader {
@@ -288,11 +341,15 @@ width: 580px;
     -webkit-box-pack: justify;
     width: 100%;
     max-height: 600px;
-    padding: 80px 0px;
     padding-right: 80px;
     padding-left: 80px;
-    background-color: white;
+    overflow: visible;
 }
+
+@keyframes animate{
+    0%{transform: rotate(0deg);}
+    100%{transform: rotate(360deg);}
+  }
 
 /**** FIN HOME ***/
 
