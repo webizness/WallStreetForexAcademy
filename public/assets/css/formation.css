@@ -33,7 +33,7 @@
 #formation-card{
     margin-top: 10px;
     margin-bottom: 10px;
-    position: relative;
+    /*position: relative;*/
     left: 300px;
 }
 
@@ -140,5 +140,5 @@ li{
     background-size: cover;
     background-position: center;
     border-radius: 15px 15px 15px 15px;
-    margin-bottom: 100px;
+    
 }
