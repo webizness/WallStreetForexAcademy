@@ -1,5 +1,51 @@
-<div class="row">
+{% extends 'base.html.twig' %}
+
+{% block title %}Wall Street Forex | Formation Gratuite{% endblock %}
+
+{% block content %}
+<div class="background-formation">
+  <h1 class="formation-title text-center">APPREND LE TRADING AVEC <font color="#B18930">W</font><font id="txt">all</font><font color="#B18930"> S</font><font id="txt">treet</font><font color="#B18930"> F</font><font id="txt">orex</font></h1>
+  <div class="row">
       <div class="col-lg-6">
+        <h2 class="formation-subtitle text-center">Sur cette formation tu vas apprendre:</h2>
+        <h4 class="formation-subtitle text-center">1- créer un compte broker</h4>
+        <h4 class="formation-subtitle text-center" >2- installer MT5</h4>
+        <h4 class="formation-subtitle text-center">3- paramétrer MT5</h4>
+        <h4 class="formation-subtitle text-center">4- installer les indicateurs mt5</h4>
+        <h4 class="formation-subtitle text-center">5- apprendre à analyser</h4>
+      </div>
+      <div class="col-lg-6">
+        <div class="formation-youtube"><iframe width="560" height="315" src="https://www.youtube.com/embed/OP61O-gYqHI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+        <div class="formation-submit"><a target="_blank" href="https://partners.admiralmarkets.com/6qFi07"><button type="submit" class="formation-button">DEMARRER</button></a></div>
+      </div>
+  </div>
+<hr class="featurette-divider">
+
+    <div class="row featurette">
+         <div class="col-md-6">
+           <div class="card" id="formation-card" style="width: 18rem;">
+              <div  id="formation-card-body"class="card-body">
+                 <h5 class="card-title-formation-h5"><font color="#B18930">FIGURE CHARTISTE</font></h5>
+                  <img src="{{ asset('assets/img/candle.png')}}" class="card-img-top" alt="...">
+                    <p class="card-title-formation-p">Apprends les figures chartistes. </p>
+                     <a href="https://drive.google.com/file/d/1K_lw9JJzKNGmjeeGLbizYGsftXw_p9hS/view" id="btn-formation-chart" class="btn btn-primary">Voir</a>
+              </div>
+           </div>
+      </div>
+      <div class="col-md-6">
+            <div class="card" id="formation-card" style="width: 18rem;">
+                <div class="card-body">
+                     <h5 class="card-title-formation-h5"><font color="#B18930">CALCULATRICE DE LOTS</font></h5>
+                     <img src="{{ asset('assets/img/calculatrice.png')}}" class="card-img-top" id="calculette" alt="...">
+                      <p class="card-title-formation-p">Calcul ton lot pour investir.</p>
+                      <a href="https://admiralmarkets.com/fr/commencez-a-trader/calculatrice?regulator=jsc" id="btn-formation-calc" class="btn btn-primary">Calculer</a>
+                </div>
+             </div>
+           </div>
+    </div>
+  <hr class="featurette-divider">
+    <div class="row featurette">
+      <div class="col-md-7">
         <li class="dropdown" id="padding-forma-li">
           <a class="dropdown-toggle" id="font-button-formation" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             POURQUOI ?
@@ -28,8 +74,8 @@ Trader peu. Beaucoup de personnes placent trop de trades en une journée. C’es
 Être organisé. Le trading est une activité sérieuse tout comme un business. D’une part, cela signifie qu’il faut éviter toute distraction pendant ce temps. Et d’autre part, chaque jour vous tenez un journal de trading. Dans celui-ci, vous consignez tous les éléments utiles qui sont arrivés au cours de la journée et qui vous permettrons d’affiner vos futures analyses et à continuer de gagner en expérience. Par exemple, ça peut être les résultats obtenus avec une stratégie donnée, la réaction d’une paire de devises tel jour de la semaine, la gestion de vos émotions face à telle situation ……</p></li>
           </ul>
         </li>
-      </div><!-- /.col-lg-6 -->
-      <div class="col-lg-6">
+      </div>
+      <div class="col-md-5">
         <li class="dropdown" id="padding-forma-li">
           <a class="dropdown-toggle" id="font-button-formation" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Les émotions les plus dangereuses dans le trading !
@@ -58,5 +104,8 @@ Beaucoup de personnes pensent que « plus signifie mieux ». Par exemple, les tr
 J’espère que ces astuces vous seront utiles et vous permettront de progresser dans le domaine du trading et de gagner l’argent que vous désirez.</p></li>
           </ul>
         </li>
-      </div><!-- /.col-lg-6 -->
-    </div><!-- /.row -->
+      </div>
+    </div>
+
+
+{% endblock %}
