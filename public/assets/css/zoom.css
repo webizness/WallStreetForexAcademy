@@ -1,9 +1,12 @@
 #vimeo-trailer-zoom {
     border-radius: 10px;
-    top: 100px;
-    left: 350px;
 }
 
+iframe {
+    width: 570px;
+    height: 308px;
+    border-radius: 10px;
+}
 .vimeo-trailer.ms {
     margin-left: 200px;
 }
@@ -62,4 +65,215 @@
     display: block;
     box-sizing: border-box;
     z-index: -2;
+}
+
+@media screen and (min-width: 1024px){
+    .vimeo-trailer.ms {
+        margin-left: -20px;
+    }
+    .zoom-card-up.me{
+        margin-left: -185px;
+    }
+    iframe {
+        width: 500px;
+        height: 280px;
+    }
+    #card-zoom {
+        width: 600px;
+    }
+}
+
+@media screen and (min-width: 1110px){
+    .vimeo-trailer.ms {
+        margin-left: 35px;
+    }
+    .zoom-card-up.me{
+        margin-left: -185px;
+    }
+    iframe {
+        width: 500px;
+        height: 280px;
+    }
+    #card-zoom {
+        width: 600px;
+    }
+}
+
+@media screen and (min-width: 1210px){
+    .vimeo-trailer.ms {
+        margin-left: 90px;
+    }
+    .zoom-card-up.me{
+        margin-left: -185px;
+    }
+    iframe {
+        width: 500px;
+        height: 280px;
+    }
+    #card-zoom {
+        width: 600px;
+    }
+}
+
+@media screen and (min-width: 1310px){
+    .vimeo-trailer.ms {
+        margin-left: 150px;
+    }
+    .zoom-card-up.me{
+        margin-left: -185px;
+    }
+    iframe {
+        width: 500px;
+        height: 280px;
+    }
+    #card-zoom {
+        width: 600px;
+    }
+}
+
+@media screen and (min-width: 1410px){
+    .vimeo-trailer.ms {
+        margin-left: 210px;
+    }
+    .zoom-card-up.me{
+        margin-left: -185px;
+    }
+    iframe {
+        width: 500px;
+        height: 280px;
+    }
+    #card-zoom {
+        width: 600px;
+    }
+}
+
+@media screen and (min-width: 1510px){
+    .vimeo-trailer.ms {
+        margin-left: 270px;
+    }
+    .zoom-card-up.me{
+        margin-left: -185px;
+    }
+    iframe {
+        width: 500px;
+        height: 280px;
+    }
+    #card-zoom {
+        width: 600px;
+    }
+}
+
+@media screen and (min-width: 1610px){
+    .vimeo-trailer.ms {
+        margin-left: 330px;
+    }
+    .zoom-card-up.me{
+        margin-left: -185px;
+    }
+    iframe {
+        width: 500px;
+        height: 280px;
+    }
+    #card-zoom {
+        width: 600px;
+    }
+}
+
+@media screen and (min-width: 1710px){
+    .vimeo-trailer.ms {
+        margin-left: 390px;
+    }
+    .zoom-card-up.me{
+        margin-left: -185px;
+    }
+    iframe {
+        width: 500px;
+        height: 280px;
+    }
+    #card-zoom {
+        width: 600px;
+    }
+}
+
+@media screen and (min-width: 1810px){
+    .vimeo-trailer.ms {
+        margin-left: 450px;
+    }
+    .zoom-card-up.me{
+        margin-left: -185px;
+    }
+    iframe {
+        width: 500px;
+        height: 280px;
+    }
+    #card-zoom {
+        width: 600px;
+    }
+}
+
+@media screen and (min-width: 1910px){
+    .vimeo-trailer.ms {
+        margin-left: 510px;
+    }
+    .zoom-card-up.me{
+        margin-left: -185px;
+    }
+    iframe {
+        width: 500px;
+        height: 280px;
+    }
+    #card-zoom {
+        width: 600px;
+    }
+}
+
+@media screen and (min-width: 2010px){
+    .vimeo-trailer.ms {
+        margin-left: 570px;
+    }
+    .zoom-card-up.me{
+        margin-left: -185px;
+    }
+    iframe {
+        width: 500px;
+        height: 280px;
+    }
+    #card-zoom {
+        width: 600px;
+    }
+}
+
+@media screen and (min-width: 2110px){
+    .vimeo-trailer.ms {
+        margin-left: 630px;
+    }
+    .zoom-card-up.me{
+        margin-left: -185px;
+    }
+    iframe {
+        width: 500px;
+        height: 280px;
+    }
+    #card-zoom {
+        width: 600px;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    .vimeo-trailer.ms {
+        margin-left: 250px;
+    }
+    .zoom-card-up.me{
+        margin-left: -400px;
+    }
+    .zoom-card-up.mt{
+        margin-top: 330px;
+    }
+    iframe {
+        width: 500px;
+        height: 280px;
+    }
+    #card-zoom {
+        width: 600px;
+    }
 }
