@@ -65,6 +65,42 @@ li{
     text-align: center;
 }
 
+.center-dropdown-0.mt {
+    margin-top: 40px;
+}
+
+.center-dropdown-0 {
+    justify-content: center;
+    text-align: center;
+}
+
+.center-dropdown-1.mt {
+    margin-top: 40px;
+}
+
+.center-dropdown-1 {
+    justify-content: center;
+    text-align: center;
+}
+
+.center-dropdown-2.mt {
+    margin-top: 40px;
+}
+
+.center-dropdown-2 {
+    justify-content: center;
+    text-align: center;
+}
+
+.center-dropdown-3.mt {
+    margin-top: 40px;
+}
+
+.center-dropdown-3 {
+    justify-content: center;
+    text-align: center;
+}
+
 #padding-forma-li {
     padding-top: 10px;
     padding-bottom: 10px;
@@ -132,6 +168,7 @@ li{
     text-align: center;
     margin-top: 10px;
 }
+
 .banner-nico {
     width: 1400px;
     height: 450px;
@@ -140,5 +177,50 @@ li{
     background-size: cover;
     background-position: center;
     border-radius: 15px 15px 15px 15px;
-    
+}
+
+@media screen and (max-width:1440px) {
+    .banner-nico {
+        width: 500px;
+        height: 450px;
+        margin-right: auto;
+        margin-left: auto;
+        background-size: cover;
+        background-position: center;
+        border-radius: 15px 15px 15px 15px;
+        
+    }
+    #formation-card{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        /*position: relative;*/
+        left: 40px;
+    }
+}
+
+@media screen and (max-width:1280px) {
+    .center-dropdown-0.me {
+        margin-left: 125px;
+    }
+    .center-dropdown-0.mt {
+        margin-top: 10px;
+    }
+    .center-dropdown-1.me {
+        margin-left: 210px;
+    }
+    .center-dropdown-1.mt {
+        margin-top: 10px;
+    }
+    .center-dropdown-2.mt {
+        margin-top: 150px;
+    }
+    .center-dropdown-2.me {
+        margin-left: -425px;
+    }
+    .center-dropdown-3.mt {
+        margin-top: 30px;
+    }
+    .center-dropdown-3.me {
+        margin-left: -520px;
+    }
 }
