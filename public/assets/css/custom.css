@@ -548,3 +548,171 @@ width: 580px;
 .copyright-text{
     text-align: center;
 }
+
+.footer-home.mt {
+    margin-top: 340px;
+}
+#icon-social{
+    text-align: right;
+    margin-left: 10px;
+    height: 36px;
+    width: 36px;
+    }
+.footer-home {
+    /*text-align: center;*/
+    /*position: absolute;*/
+    width: 100%;
+    background-color: #fff;
+    padding-top: 25px;
+    margin-top: 50px;
+}
+.copyright-text{
+    text-align: center;
+}
+
+.footer-appli.mt {
+    margin-top: 10px;
+}
+#icon-social{
+    text-align: right;
+    margin-left: 10px;
+    height: 36px;
+    width: 36px;
+    }
+.footer-appli {
+    /*text-align: center;*/
+    /*position: absolute;*/
+    width: 100%;
+    background-color: #fff;
+    padding-top: 25px;
+    margin-top: 50px;
+}
+.copyright-text{
+    text-align: center;
+}
+
+.footer-formation.mt {
+    margin-top: 10px;
+}
+#icon-social{
+    text-align: right;
+    margin-left: 10px;
+    height: 36px;
+    width: 36px;
+    }
+.footer-formation {
+    /*text-align: center;*/
+    /*position: absolute;*/
+    width: 100%;
+    background-color: #fff;
+    padding-top: 25px;
+    margin-top: 50px;
+}
+.copyright-text{
+    text-align: center;
+}
+
+.footer-zoom.mt {
+    margin-top: 10px;
+}
+#icon-social{
+    text-align: right;
+    margin-left: 10px;
+    height: 36px;
+    width: 36px;
+    }
+.footer-zoom {
+    /*text-align: center;*/
+    /*position: absolute;*/
+    width: 100%;
+    background-color: #fff;
+    padding-top: 25px;
+    margin-top: 50px;
+}
+.copyright-text{
+    text-align: center;
+}
+
+.footer-broker.mt {
+    margin-top: 780px;
+}
+#icon-social{
+    text-align: right;
+    margin-left: 10px;
+    height: 36px;
+    width: 36px;
+    }
+.footer-broker {
+    /*text-align: center;*/
+    /*position: absolute;*/
+    width: 100%;
+    background-color: #fff;
+    padding-top: 25px;
+    margin-top: 50px;
+}
+.copyright-text{
+    text-align: center;
+}
+
+.footer-emploi.mt {
+    margin-top: 50px;
+}
+#icon-social{
+    text-align: right;
+    margin-left: 10px;
+    height: 36px;
+    width: 36px;
+    }
+.footer-emploi {
+    /*text-align: center;*/
+    /*position: absolute;*/
+    width: 100%;
+    background-color: #fff;
+    padding-top: 25px;
+    margin-top: 50px;
+}
+.copyright-text{
+    text-align: center;
+}
+
+.footer-informations.mt {
+    margin-top: 50px;
+}
+#icon-social{
+    text-align: right;
+    margin-left: 10px;
+    height: 36px;
+    width: 36px;
+    }
+.footer-informations {
+    /*text-align: center;*/
+    /*position: absolute;*/
+    width: 100%;
+    background-color: #fff;
+    padding-top: 25px;
+    margin-top: 50px;
+}
+.copyright-text{
+    text-align: center;
+}
+
+.footer-contact.mt {
+    margin-top: 50px;
+}
+#icon-social{
+    text-align: right;
+    margin-left: 10px;
+    height: 36px;
+    width: 36px;
+    }
+.footer-contact {
+    /*text-align: center;*/
+    /*position: absolute;*/
+    width: 100%;
+    background-color: #fff;
+    padding-top: 25px;
+    margin-top: 50px;
+}
+.copyright-text{
+    text-align: center;
+}

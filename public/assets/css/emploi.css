@@ -26,3 +26,18 @@
     color:#B18930;
     font-weight: bold;
 }
+
+@media screen and (max-width:1560px) {
+    .center-card-emploi.mt {
+        margin-top: 1275px;
+    }
+    .center-card-emploi.me {
+        margin-left: -440px;
+    }
+    .emploi-text-center.mt {
+        margin-top: 10px;
+    }
+    .emploi-text-center.me {
+        margin-left: 420px;
+    }
+}
