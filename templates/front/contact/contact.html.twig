@@ -2,34 +2,46 @@
 
 {% block title %}Wall Street Forex | Contact{% endblock %}
 
-{% block body %}
-
-</div>
 {% block content %}
 {% for message in app.flashes('success') %}
 <div class="alert alert-success mt-4">
 {{ message}}
 </div>
 {% endfor %}
-<h1>Contactez-nous</h1>
 {{ form_start(form) }}
-<div class="container-fluid" id="container-fluid-contact">
-<div class="row">
-{#{{ form(form) }}#}
-
-
-                
-                <div class="col-md-6">{{ form_row(form.lastname) }}</div>
-                <div class="col-md-6">{{ form_row(form.name) }}</div>
-                <div class="col-md-12">{{ form_row(form.email) }}</div>
-                <div class="col-md-12">{{ form_row(form.subject) }}</div>
-                <div class="col-md-12">{{ form_row(form.message) }}</div>
-                <div  class="row d-flex justify-content-center align-content-center "><button type="submit" class="button-contact">Envoyer</button></div>
-            
-
-
-</div>
-</div>
-{{ form_end(form) }}  
-{% endblock %}
+    <div class="form-area">
+        <div class="">
+            <div class="row single-form g-0">
+                <div class="col-sm-12 col-lg-6">
+                    <div class="left">
+                        <h2><span>Contacter</span> <br>Wall Street Forex</h2>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-lg-6">
+                    <div class="right">
+                       <i class="fa fa-caret-left"></i>
+                        <form>
+                          <div class="mb-3">
+                            {{ form_row(form.lastname) }}
+                          </div>
+                          <div class="mb-3">
+                            {{ form_row(form.name) }}
+                          </div>
+                          <div class="mb-3">
+                            {{ form_row(form.email) }}
+                          </div>
+                          <div class="mb-3">
+                            {{ form_row(form.subject) }}
+                          </div>
+                          <div class="mb-3">
+                            {{ form_row(form.message) }}
+                          </div>
+                          <button type="submit" class="btn btn-primary">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{{ form_end(form) }}
 {% endblock %}
